@@ -1,8 +1,9 @@
-/* JM, 07/15/2024 */
+/* JM, 07/16/2024 */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: #DCDCDC; 
+    box-sizing: border-box;
 }
 ul li,
 ol li {
@@ -10,9 +11,23 @@ ol li {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
-    background-color: #D8BFD8;
+    background-color: #dd95ff;
     text-align: center;
 }
 p {
     background-color: rgba(100, 100, 100, .25);
+}
+.link-list {
+    display: inline-block;
+}
+.link-list div {
+    margin: 10px;
+}
+.link-list a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin-top: -5px;
+    width: 100%;
+    background-color: #dd95ff;
 }
